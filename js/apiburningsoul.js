@@ -1,0 +1,5 @@
+/**
+ * Burningsoul
+ * Javascript API Client
+ * 
+ */
