@@ -1,5 +1,5 @@
 /**
  * Burningsoul
  * Javascript API Client
- * 
  */
+
