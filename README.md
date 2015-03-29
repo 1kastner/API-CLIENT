@@ -9,6 +9,7 @@ Developer Guide links [Wiki](https://github.com/burningsoul/API-CLIENT/wiki) ,
 * [WEATHER]
 * [MOON]
 * [LOCATION]
+* [GA](https://github.com/burningsoul/API-CLIENT/wiki/GA)
 
 
 
