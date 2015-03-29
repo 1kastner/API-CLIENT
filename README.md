@@ -18,4 +18,5 @@ we are supported by helpful 3rd parties via code contributions, free licenses, t
 <a href="http://www.burningsoul.in"><img src="http://cdn.burningsoul.in/image/logo.png" height="60"></a>
 <a href="http://www.farao.org"><img src="http://www.farao.org/assets/image/logo_100.png" height="60"></a>
 <hr>
-<img src="https://api.burningsoul.in/ga/UA-58636201-3/API-CLIENT"/>
+[![Analytics](https://api.burningsoul.in/ga/UA-58636201-3/API-CLIENT)](api)
+
