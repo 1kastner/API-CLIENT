@@ -7,8 +7,6 @@ class Burningsoul_API{
 	}
 	
 	function config($ssl=FALSE,$returnArray=FALSE){
-		
-		
 		$this->config['ssl']=$ssl;
 		$this->config['returnArray']=$returnArray;
 		$this->result="";
@@ -24,18 +22,22 @@ if($ip==null || !filter_var($ip, FILTER_VALIDATE_IP)){ //check input
 }
 
 //QR-Code
-
 public function qr($data,$size=null,$ecc=null){ //$data Required
 	$this->config['apiname']="qr";
 	return $this->httpIO(array("data"=>$data,'size'=>$size,'ecc'=>$ecc),"POST");
 }
 
 //Whois
-
 public function whois($domain){ //$domain Required
 $this->config['apiname']="whois";
 $domain=str_replace(array('http://','https://','http://www','https://www'), "", $domain); //Remove unvanted prefix
 return $this->httpIO(array("domain"=>$domain), "GET");
+}
+
+//Location
+public function location($name,$location){ //$name=name of the country/state | $location = cities/states 
+$this->config['apiname']="location";
+return $this->httpIO(array('name'=>$name,'location'=>$location),"GET");
 }
 
 
