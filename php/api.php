@@ -40,6 +40,11 @@ $this->config['apiname']="location";
 return $this->httpIO(array('name'=>$name,'location'=>$location),"GET");
 }
 
+//Moon
+public function moon($time=null){
+	$this->config['apiname']="moon";
+	return $this->httpIO(array('time'=>$time), "GET");
+}
 
 
 
