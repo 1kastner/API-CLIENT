@@ -46,20 +46,20 @@ public function moon($time=null){
 	return $this->httpIO(array('time'=>$time), "GET");
 }
 
-
-
+//Weather
+public function weather($query){
+	$this->config['apiname']="weather";
+	return $this->httpIO(array('query'=>$query), "GET");
+}
 
 function httpIO($fields,$method){ //making curl calls
 //SSL
 $http=($this->config['ssl'] ? 'https://' : 'http://');
 $url=$http.'api.burningsoul.in/'.$this->config['apiname'];
 if($method=='GET'){
-	
 	foreach($fields as $key=>$value){$url .='/'.$value;}
 	$this->result=file_get_contents($url);
-	
 }else{
-
     $fields_string="";
     foreach($fields as $key=>$value) {
     	 $fields_string .= $key.'='.$value.'&';
@@ -76,17 +76,13 @@ if($method=='GET'){
 	$this->result=curl_exec($ch);
 	//close connection
 	curl_close($ch);
-
 }
-
  return json_decode($this->result,$this->config['returnArray']);
-
 }
 
 //error trigger
 function e($message=null){
 	trigger_error("<font color='red'>".$message."</font>", E_USER_ERROR);
-	
 }
 	
 }
