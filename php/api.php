@@ -15,7 +15,7 @@ class Burningsoul_API{
 //geoip
 public function geoip($ip=null){ //$ip Required
 $this->config['apiname']="geoip";
-if($ip==null || !filter_var($ip, FILTER_VALIDATE_IP)){ //check input
+if($ip===null || !filter_var($ip, FILTER_VALIDATE_IP)){ //check input
 	$this->e("Invalid IP");
 }
 	return $this->httpIO(array("ip"=>$ip), "GET");
