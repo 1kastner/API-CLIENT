@@ -1,0 +1,27 @@
+{
+  "name": "burningsoul-api",
+  "version": "0.1.1",
+  "description": "Client for Burningsoul's APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burningsoul/API-CLIENT.git"
+  },
+  "keywords": [
+    "moon",
+    "geoip",
+    "google analytics",
+    "measurement protocol",
+    "whois",
+    "qrcode"
+  ],
+  "author": "Aaryadev,Burningsoul",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/burningsoul/API-CLIENT/issues"
+  },
+  "homepage": "http://www.burningsoul.in/apis"
+}
