@@ -3,13 +3,13 @@ Burningsoul APIs are  free, avilable on secure & non-secure url(https/http).
 Developer Guide links [Wiki](https://github.com/burningsoul/API-CLIENT/wiki) ,
 [Site](http://www.brningsul.in/api) .
 #Avilable APIs
+* [MOON](https://github.com/burningsoul/API-CLIENT/wiki/MOON)
+* [GA](https://github.com/burningsoul/API-CLIENT/wiki/GA)
 * [QR-CODE](https://github.com/burningsoul/API-CLIENT/wiki/QR-CODE)
 * [GEOIP](https://github.com/burningsoul/API-CLIENT/wiki/GEOIP)
 * [WHOIS](https://github.com/burningsoul/API-CLIENT/wiki/WHOIS)
 * [WEATHER]
-* [MOON]
 * [LOCATION]
-* [GA](https://github.com/burningsoul/API-CLIENT/wiki/GA)
 
 
 
